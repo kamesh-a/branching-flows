@@ -47,8 +47,9 @@ Ref: [Github Flow](https://guides.github.com/introduction/flow/)
 
 
 **Future Steps:**
-6. Should be enhanced to `auto pull` from CI.
-9. Auto deployment to production after `successful merge` to `master` with CI.
+- 6. Should be enhanced to `auto pull` from CI.
+- 9. Auto tagging from `merge` event on github actions.
+- 9. Auto deployment to `production` as a outcome of `successful merge` to `master` with CI.
 
 
 **Some related articles and github actions:**
