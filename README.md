@@ -28,8 +28,8 @@ Ref: [Github Flow](https://guides.github.com/introduction/flow/)
 1. Developer commits to **feature/notify-room-owner**
 2. Pushes to his code own branch ( **Daily/EOD commits** )
 3. Github actions runs on commit action with prefix identification `feature/.*`
-4. Runs `Unit Test` -> `auto send Coverage analysis report to SonarQube server`
-5. `Unit Test` -> `PASS` -> Non-default-staging deployment. ( Hopefuly, it won't interrupt other developers staging or current default staging environment )
+4. Runs `Unit Test` -> `auto send` Coverage analysis report to SonarQube server`
+5. `Unit Test` -> `PASS` -> Non-default-staging deployment. ( can be promoted to default based on needs )
 6. CI creates `auto pull` request from `feature/.*` to `MASTER` or can be `manual` to start with.
 7. Black box testing commences ( Manual )
 8. Upon accepting pull Request to `MASTER` and merge it.
