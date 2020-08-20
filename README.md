@@ -1,8 +1,10 @@
 Branching Flow:
 ---------------
 Ref: [Github Flow](https://guides.github.com/introduction/flow/)
-*Note: Follow releases in queue fashion*
-*Note: `Master` & `<Feature|hotfix>` branches, no other intermediate branches*
+
+- *Releases cycles in queue fashion advisable - meaning one release blocks at a time other builds have to wait*
+- *`Master` & `<Feature|hotfix>` branches, no other intermediate branches*
+
 
 **Mainline ( Infinite timeline branch ):**
 `HEAD -> Master`
