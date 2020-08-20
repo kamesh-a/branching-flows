@@ -2,6 +2,7 @@ Branching Flow:
 ---------------
 Ref: [Github Flow](https://guides.github.com/introduction/flow/)
 *Note: Follow releases in queue fashion*
+*Note: `Master` & `<Feature|hotfix>` branches, no other intermediate branches*
 
 **Mainline ( Infinite timeline branch ):**
 `HEAD -> Master`
@@ -28,7 +29,7 @@ Ref: [Github Flow](https://guides.github.com/introduction/flow/)
 1. Developer commits to **feature/notify-room-owner**
 2. Pushes to his code own branch ( **Daily/EOD commits** )
 3. Github actions runs on commit action with prefix identification `feature/.*`
-4. Runs `Unit Test` -> `auto send` Coverage analysis report to SonarQube server`
+4. Runs `Unit Test` -> `auto send` Coverage analysis report to SonarQube server
 5. `Unit Test` -> `PASS` -> Non-default-staging deployment. ( can be promoted to default based on needs )
 6. CI creates `auto pull` request from `feature/.*` to `MASTER` or can be `manual` to start with.
 7. Black box testing commences ( Manual )
