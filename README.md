@@ -53,8 +53,11 @@ Ref: [Github Flow](https://guides.github.com/introduction/flow/)
 
 
 **Some related articles and github actions:**
+
 [Actions Auto tag](https://github.com/marketplace/actions/github-tag-bump)
+
 [Github Flow](https://guides.github.com/introduction/flow/)
+
 [Git flow](https://nvie.com/posts/a-successful-git-branching-model)
 
 
